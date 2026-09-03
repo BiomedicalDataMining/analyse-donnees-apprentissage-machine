@@ -1,0 +1,51 @@
+# Jupyter
+**/.ipynb_checkpoints/
+**/.virtual_documents/
+
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels et configuration locale
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Caches des outils Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Éditeurs et environnements de développement
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.temp
+*.bak
+~$*
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
+Desktop.ini
+__MACOSX/
+
+# Modèles générés et sérialisés
+*.h5
+*.keras
+*.ckpt
+*.onnx
+*.pth
+*.pt
+*.joblib
+*.pkl
